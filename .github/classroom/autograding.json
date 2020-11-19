@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Age",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_age.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Jane",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_jane.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "John",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_john.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "NaN",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_notnum.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "Other Name",
+      "setup": "sudo -H pip3 install pytest",
+      "run": "pytest test_other.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
